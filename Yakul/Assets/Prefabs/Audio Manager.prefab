@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7215042168508769436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7215042168508769439}
+  - component: {fileID: 7215042168508769438}
+  m_Layer: 9
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7215042168508769439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215042168508769436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.91, z: -24}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7215042168508769438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215042168508769436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fef63a0235823498aa4af439f58f04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    BGMOrSFX: BGM
+    clip: {fileID: 8300000, guid: 89922cf6a207a224e8b44534e1fbbd68, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: HitCar
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: 26c507c8785d841f3bca141ed44cd0a2, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: 6b872a5c2f1a84f639ec3e0b0071d301, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: 1534fc1c46699bd43ac431c838acf6eb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Money
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: 7f9403ad262715f4994f66bc8d445f42, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Yakul
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: b55202a6cff9b174abe235480b441275, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dead
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: d99f0f9f3970a124eb486aa70282fed0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Move
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: c0ac8cb41ea41403c8ba98147d940a75, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Car
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: 26a06d44ac70a5240b33bcc54529ad05, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelComplete
+    BGMOrSFX: BGM
+    clip: {fileID: 8300000, guid: 9d619c878b4cd254c9212c11b3df211c, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: HitObstacles
+    BGMOrSFX: SFX
+    clip: {fileID: 8300000, guid: fba439e1b58ba4429b4475229512e02e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu
+    BGMOrSFX: BGM
+    clip: {fileID: 8300000, guid: c32c4c919933de247af902faaae9197f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Intro
+    BGMOrSFX: BGM
+    clip: {fileID: 8300000, guid: 12740c11ecd45ae478b8bc6ea7ad74d2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Outro
+    BGMOrSFX: BGM
+    clip: {fileID: 8300000, guid: 160eaf0a932c6c1488d7c22fde3e1d3a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
