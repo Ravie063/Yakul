@@ -1,6 +1,13 @@
 # Yakul
 University game advert project
 
+Contact me:
+russell.m.santos@gmail.com
+
+Play the game:
+https://ravie63.itch.io/yakul
+
+
 LICENSE:
 Yakul Non-Distribution and Non-Commercial License (NDNC)
 
