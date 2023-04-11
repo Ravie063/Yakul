@@ -1,5 +1,5 @@
 # Yakul
-University game advert project
+A one week made game for university advert project
 
 Contact me:
 russell.m.santos@gmail.com
